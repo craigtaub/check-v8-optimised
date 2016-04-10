@@ -1,0 +1,30 @@
+{
+  "name": "v8-optimising",
+  "version": "1.0.0",
+  "description": "Check if your module/function is optimised for the V8 engine.",
+  "keywords": [
+    "v8",
+    "chrome",
+    "chromium",
+    "optimize",
+    "optimization",
+    "v8-natives",
+    "speed",
+    "performance"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --allow-natives-syntax tests/index.test.js",
+    "build": "node --allow-natives-syntax lib/index.js 1,2"
+  },
+  "author": "Craig Taub <craigtaub@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/craigtaub/v8-optimising.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
