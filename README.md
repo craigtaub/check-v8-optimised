@@ -6,7 +6,7 @@ If it isn't check the WHY section below on reading material to help find reasons
 
 ## Install
 ```
-npm install v8-optimising
+npm install check-v8-optimised
 ```
 
 ## Usage
