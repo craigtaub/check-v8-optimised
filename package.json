@@ -21,7 +21,7 @@
   "author": "Craig Taub <craigtaub@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/craigtaub/v8-optimising.git"
+    "url": "http://github.com/craigtaub/check-v8-optimised.git"
   },
   "license": "ISC",
   "devDependencies": {
