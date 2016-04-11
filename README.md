@@ -1,4 +1,4 @@
-# V8 Optimiser
+# Check V8 Optimised
 
 Check if your module/function is optimized for the V8 engine. Download it and run it against (and from within) any module/function very quickly.
 
