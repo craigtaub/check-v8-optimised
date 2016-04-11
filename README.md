@@ -22,7 +22,7 @@ console.log(optimiserResult); // prints "Function is optimized"
 
 The module returns a string which can be outputted to console, parsed inside a test or used anyway you like.
 
-`argumentString` takes arguements as a string, can support any number but must be in correct format. e.g. for a function with arguments `(first, second, third)` hand as `'1,2,3'` etc.
+`argumentString` takes any potential arguements as a string, can support any number but must be in correct format. e.g. for a function with arguments `(first, second, third)` hand as `'1,2,3'` etc.
 
 Also you must run node with the below flag enabled. It is the V8 native engine command.
 
