@@ -11,7 +11,7 @@ npm install check-v8-optimised
 
 ## Usage
 ```js
-var optimiser = require('v8-optimising');
+var optimiser = require('check-v8-optimised');
 var someModule = require('./someModule');
 
 var argumentString = '1,2';
