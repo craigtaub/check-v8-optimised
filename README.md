@@ -13,9 +13,11 @@ npm install v8-optimising
 ```js
 var optimiser = require('v8-optimising');
 var someModule = require('./someModule');
+
 var argumentString = '1,2';
 var optimiserResult = optimiser(someModule, argumentString);
-console.log(optimiserResult);
+
+console.log(optimiserResult); // prints "Function is optimized"
 ```
 
 The module returns a string which can be outputted to console, parsed inside a test or used anyway you like.
