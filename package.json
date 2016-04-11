@@ -1,6 +1,6 @@
 {
   "name": "check-v8-optimised",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if your module/function is optimised for the V8 engine.",
   "keywords": [
     "v8",
