@@ -1,6 +1,6 @@
 # V8 Optimiser
 
-Check if your module/function is optimized for the V8 engine.
+Check if your module/function is optimized for the V8 engine. Download it and run it against (and from within) any module/function very quickly.
 
 If it isn't check the WHY section below on reading material to help find reasons why and optimize your code.
 
