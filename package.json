@@ -16,7 +16,7 @@
   "scripts": {
     "test": "mocha --allow-natives-syntax tests/index.test.js",
     "build": "node --allow-natives-syntax lib/index.js 1,2",
-    "lint": "eslint tests/*.test.js"
+    "lint": "eslint ./"
   },
   "author": "Craig Taub <craigtaub@gmail.com>",
   "repository": {
