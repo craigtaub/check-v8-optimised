@@ -14,15 +14,14 @@ npm install check-v8-optimised
 var optimiser = require('check-v8-optimised');
 var someModule = require('./someModule');
 
-var argumentString = '1,2';
-var optimiserResult = optimiser(someModule, argumentString);
+// specify arguments for your function
+var args = [1, 2];
+var optimiserResult = optimiser(someModule, args);
 
 console.log(optimiserResult); // prints "Function is optimized"
 ```
 
 The module returns a string which can be outputted to console, parsed inside a test or used anyway you like.
-
-`argumentString` takes any potential arguements as a string, can support any number but must be in correct format. e.g. for a function with arguments `(first, second, third)` hand as `'1,2,3'` etc.
 
 ```
 node yourFile.js
@@ -33,10 +32,6 @@ node yourFile.js
 npm run test
 npm run lint
 ```
-
-Why is lib/index.js left out of linting?
-
-As ESLint parses the whole file into AST first, and then processes it, there was no way to disable the parser for the character %.
 
 ## How
 Using available low level diagnostic commands in the V8 engine, can ask if a given function is optimized. See below for possible reasons why.
