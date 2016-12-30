@@ -14,9 +14,9 @@
   ],
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --allow-natives-syntax tests/index.test.js",
-    "build": "node --allow-natives-syntax lib/index.js 1,2",
-    "lint": "./node_modules/eslint/bin/eslint.js tests/*.test.js"
+    "test": "mocha tests/index.test.js",
+    "build": "node lib/index.js 1,2",
+    "lint": "eslint ./"
   },
   "author": "Craig Taub <craigtaub@gmail.com>",
   "repository": {
@@ -26,7 +26,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5",
-    "eslint": "^2.6.0"
+    "mocha": "^3.2.0",
+    "eslint": "^3.12.2"
   }
 }
